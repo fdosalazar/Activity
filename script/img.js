@@ -1,0 +1,32 @@
+$(document).ready(function(){
+	$("#img0-small").mouseover(function(){
+		$("#img0-big").fadeIn(300);
+	});
+	$("#img0-small").mouseout(function(){
+		$("#img0-big").fadeOut(300);
+	});
+        $("#img1-small").mouseover(function(){
+		$("#img1-big").fadeIn(300);
+	});
+	$("#img1-small").mouseout(function(){
+		$("#img1-big").fadeOut(300);
+	});
+	$("#img2-small").mouseover(function(){
+		$("#img2-big").fadeIn(300);
+	});
+	$("#img2-small").mouseout(function(){
+		$("#img2-big").fadeOut(300);
+	});
+	$("#img3-small").mouseover(function(){
+		$("#img3-big").fadeIn(300);
+	});
+	$("#img3-small").mouseout(function(){
+		$("#img3-big").fadeOut(300);
+	});
+	$("#img4-small").mouseover(function(){
+		$("#img4-big").fadeIn(300);
+	});
+	$("#img4-small").mouseout(function(){
+		$("#img4-big").fadeOut(300);
+	});
+});
